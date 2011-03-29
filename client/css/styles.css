@@ -1,0 +1,13 @@
+div#message {
+
+	background-color:red;
+	width:500px;
+	height:20px;
+	display:none;
+}
+
+div.callresponse {
+
+display:none;
+
+}
