@@ -1,32 +1,17 @@
 !!! 5
 
 html
-        head
-                title jquery Socket.io demo
-                script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js")
-                script(src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.min.js")
-                script(src="socket.io/socket.io.js")
-                script(src="js/main.js")
-		style
-		:css
-			div#message {
-
-			background-color:red;
-			width:500px;
-			height:20px;
-			display:none;
-			}
-
-			div.callresponse {
-
-			display:none;
-
-			}
-
-
-        body
-                #wrap
-                        div#login
-                                a(href="/logout") logout
-                        !{body}
+    head
+        title jquery Socket.io demo
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js")
+        script(src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.min.js")
+        script(src="socket.io/socket.io.js")
+        script(src="js/jquery.socket.io.js")
+        link(rel="stylesheet", type="text/css", href="css/styles.css") 
+    
+    body
+        #wrap
+            div#login
+                a(href="/logout") logout
+            !{body}
 
