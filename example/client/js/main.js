@@ -9,7 +9,7 @@ $(document).ready( function () {
 	
 	});
 	
-	//the client is calling the client
+	//the server is calling the client
 	$(jqSH).bind('calling', function(event, message){
 
 		var messageContainer = $("div#message");
